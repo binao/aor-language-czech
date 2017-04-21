@@ -1,29 +1,29 @@
-# French Translations for Admin-on-rest
+# Czech Translations for Admin-on-rest
 
-French translations for [admin-on-rest](https://github.com/marmelab/admin-on-rest), the frontend framework for building admin applications on top of REST services.
+Czech translations for [admin-on-rest](https://github.com/marmelab/admin-on-rest), the frontend framework for building admin applications on top of REST services.
 
 ![admin-on-rest demo](http://static.marmelab.com/admin-on-rest.gif)
 
 ## Installation
 
 ```sh
-npm install --save aor-language-french
+npm install --save aor-language-czech
 ```
 
 ## Usage
 
 ```js
-import frenchMessages from 'aor-language-french';
+import czechMessages from 'aor-language-czech';
 
 const messages = {
-    'fr': frenchMessages,
+    'cs': czechMessages,
 };
 
-<Admin locale="fr" messages={messages}>
+<Admin locale="cs" messages={messages}>
   ...
 </Admin>
 ```
 
 ## License
 
-This translation is licensed under the [MIT Licence](LICENSE), and sponsored by [marmelab](http://marmelab.com).
+This translation is licensed under the [MIT Licence](LICENSE), and sponsored by [magikMaker](http://bjorn.wikkeling.com).
