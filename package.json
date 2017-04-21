@@ -1,24 +1,26 @@
 {
-  "name": "aor-language-french",
-  "version": "1.7.0",
-  "description": "French translations for admin-on-rest, the frontend framework for building admin applications on top of REST services",
+  "name": "aor-language-czech",
+  "version": "1.0.0",
+  "description": "Czech translations for admin-on-rest, the frontend framework for building admin applications on top of REST services",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marmelab/aor-language-french.git"
+    "url": "git@github.com:magikMaker/aor-language-czech.git"
   },
   "keywords": [
     "react",
     "admin-on-rest",
-    "translation"
+    "translation",
+    "czech",
+    "langugae"
   ],
-  "author": "Julien Demangeon",
+  "author": "Bjørn Wikkeling",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marmelab/aor-language-french/issues"
+    "url": "https://github.com/magikMaker/aor-language-czech/issues"
   },
-  "homepage": "https://github.com/marmelab/aor-language-french#readme"
+  "homepage": "https://github.com/magikMaker/aor-language-czech"
 }
