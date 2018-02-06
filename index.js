@@ -11,6 +11,7 @@ module.exports = {
             refresh: 'Obnovit',
             add_filter: 'Přidat filtr',
             remove_filter: 'Odstraňte filtr',
+            back: 'Jít zpět',
         },
         boolean: {
             true: 'Ano',
@@ -23,6 +24,7 @@ module.exports = {
             create: 'Vytvořte %{name}',
             delete: 'Vymažte %{name} #%{id}',
             dashboard: 'Dashboard',
+            not_found: 'Nenalezeno',
         },
         input: {
             image: {
@@ -35,18 +37,20 @@ module.exports = {
             no: 'Ne',
             are_you_sure: 'Jste si jistý?',
             about: 'O',
+            not_found: 'Nic nebylo nalezeno'
         },
         navigation: {
             page_out_of_boundaries: 'Číslo stránky mimo rozsah',
             page_out_from_end: 'Nelze se přepnout za poslední stranou',
             page_out_from_begin: 'Nelze se přepnout před stranu 1',
             page_range_info: '%{offsetBegin}-%{offsetEnd} z %{total}',
+            no_results: 'Žádné výsledky nenalezeny',
             next: 'Další',
             prev: 'Předchozí',
         },
         auth: {
             username: 'Uživatelské jméno',
-            password: 'heslo',
+            password: 'Heslo',
             sign_in: 'Přihlásit se',
             sign_in_error: 'Ověření selhalo, zkuste to znovu',
             logout: 'Odhlásit se',
@@ -59,7 +63,7 @@ module.exports = {
             http_error: 'Chyba komunikace serevru',
         },
         validation: {
-            required: 'Požadovaný',
+            required: 'Povinné pole',
         },
     },
 };
